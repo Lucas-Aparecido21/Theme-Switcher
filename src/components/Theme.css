@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.container1 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.container2 {
+  display: flex;
+
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+input[type="checkbox"] {
+  width: 10rem;
+  height: 2rem;
+}
+
+.teste {
+  color: black;
+  font-weight: 100;
+}
